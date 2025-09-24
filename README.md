@@ -29,3 +29,5 @@ Supplemental Nutrition Assistance Program COVID-19 Policy and Enrollment Data, U
 [The Book of the States, The Governors: 2022](https://bookofthestates.org/tables/2022-4-1/)
 
 [The Book of the States, The Governors: 2023](https://bookofthestates.org/tables/2023-4-1/)
+
+Copyright © 2025 Nava PBC. All rights reserved.
