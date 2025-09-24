@@ -1,0 +1,33 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          under_payment   R-squared:                       0.213
+Model:                            OLS   Adj. R-squared:                  0.163
+Method:                 Least Squares   F-statistic:                     4.293
+Date:                Wed, 24 Sep 2025   Prob (F-statistic):           5.92e-05
+Time:                        11:06:27   Log-Likelihood:                -118.29
+No. Observations:                 153   AIC:                             256.6
+Df Residuals:                     143   BIC:                             286.9
+Df Model:                           9                                         
+Covariance Type:            nonrobust                                         
+=======================================================================================
+                          coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+Intercept               1.1990      0.133      9.005      0.000       0.936       1.462
+bbce                    0.5975      0.206      2.898      0.004       0.190       1.005
+bbce_fpl                0.0646      0.069      0.940      0.349      -0.071       0.200
+bbce_asset             -0.3444      0.179     -1.924      0.056      -0.698       0.009
+bbce_child              0.6779      0.244      2.784      0.006       0.197       1.159
+bbce_senior            -0.3421      0.197     -1.734      0.085      -0.732       0.048
+cap                    -0.1345      0.104     -1.296      0.197      -0.340       0.071
+snap_rate               0.0494      0.095      0.521      0.603      -0.138       0.237
+households             -0.0188      0.051     -0.369      0.713      -0.119       0.082
+republican_governor    -0.2615      0.102     -2.577      0.011      -0.462      -0.061
+==============================================================================
+Omnibus:                       14.911   Durbin-Watson:                   1.960
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               16.799
+Skew:                           0.684   Prob(JB):                     0.000225
+Kurtosis:                       3.873   Cond. No.                         11.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
